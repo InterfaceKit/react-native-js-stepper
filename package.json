@@ -1,0 +1,57 @@
+{
+  "name": "react-native-stepperui",
+  "version": "0.1.0",
+  "description":
+    "React Native component to display a `Stepper`, a sequence of logical and numbered steps, frequently used for navigation.",
+  "author": "Antonio Moreno Valls <amoreno@apsl.net>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InterfaceKit/react-native-stepperui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InterfaceKit/react-native-stepperui/issues"
+  },
+  "tags": [
+    "react",
+    "react-native",
+    "react-component",
+    "android",
+    "ios",
+    "multiplatform"
+  ],
+  "keywords": [
+    "react",
+    "react-native",
+    "android",
+    "react-component",
+    "multiplatform",
+    "ios",
+    "stepper"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "react-native-vector-icons": "^4.5.0",
+    "react-native-platform-touchable": "^1.1.1",
+    "prop-types": "^15.6.0"
+  },
+  "devDependencies": {
+    "@types/eslint-plugin-prettier": "^2.2.0",
+    "@types/prettier": "^1.10.0",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.16.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.5.0",
+    "flow": "^0.2.3",
+    "jest": "22.1.4",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
