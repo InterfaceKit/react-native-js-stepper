@@ -1,4 +1,4 @@
-# react-native-stepperui (WIP)
+# react-native-js-stepper (WIP)
 
 React Native component to display a `Stepper`, a sequence of logical and numbered steps, frequently used for navigation.
 
@@ -13,7 +13,7 @@ https://material.io/guidelines/components/steppers.html
 ## Getting started
 
 ```sh
-$ yarn add InterfaceKit/react-native-stepperui
+$ yarn add InterfaceKit/react-native-js-stepper
 ```
 
 ## Usage
