@@ -39,6 +39,7 @@ export default class ViewScreen extends React.Component<Props> {
         ref={(ref: any) => {
           this.stepper = ref
         }}
+        validation={false}
         activeDotStyle={styles.activeDot}
         inactiveDotStyle={styles.inactiveDot}
         showTopStepper={true}
@@ -109,6 +110,7 @@ const styles = StyleSheet.create({
 | inactiveStepNumberStyle |    Object     |               Styles object of number on inactive step               |    No    |
 |  activeStepTitleStyle   |    Object     |                Styles object of title on active step                 |    No    |
 | inactiveStepTitleStyle  |    Object     |               Styles object of title on inactive step                |    No    |
+|       validation        |    boolean    |         Disables validation (related to top stepper numbers)         |    No    |
 |                         |               |                                                                      |          |
 
 ## License
