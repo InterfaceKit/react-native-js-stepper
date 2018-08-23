@@ -1,8 +1,7 @@
 {
   "name": "react-native-js-stepper",
-  "version": "0.2.0",
-  "description":
-    "React Native component to display a `Stepper`, a sequence of logical and numbered steps, frequently used for navigation.",
+  "version": "0.2.1",
+  "description": "React Native component to display a `Stepper`, a sequence of logical and numbered steps, frequently used for navigation.",
   "author": "Antonio Moreno Valls <amoreno@apsl.net>",
   "license": "MIT",
   "repository": {
@@ -30,8 +29,7 @@
     "stepper"
   ],
   "scripts": {
-    "prettier":
-      "prettier --single-quote --print-width 81 --write index.js lib/Stepper.js",
+    "prettier": "prettier --single-quote --print-width 81 --write index.js lib/Stepper.js",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
